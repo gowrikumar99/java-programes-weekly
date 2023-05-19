@@ -1,0 +1,1348 @@
+    ..........................bitlabs...................
+
+1./*(Write a program that takes two integer inputs from the user and prints "Equal" if the two numbers are eq
+ual, and "Not Equal" if they are not equal. */
+
+import java.util.Scanner;
+class EqualNumberOrNot{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.print("Enter the number1 :");
+    int num1=input.nextInt();
+    System.out.print("Enter the number2 :");
+    int num2=input.nextInt();
+  if(num1==num2){
+  System.out.println("this is equal numbers");
+  }else if(num1!=num2){
+  System.out.println("these numbers are not equal : ");
+  }
+  }
+}
+
+2.
+/*Write a program that takes an integer input from the user and prints "Even" if the number is even, and "
+Odd" if the number is odd.*/
+import java.util.Scanner;
+class EvenNumberOrOddNumber{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter the number : ");
+    int num=input.nextInt();
+    if(num%2==0){
+      System.out.println("this is even number : ");
+    }else{
+      System.out.println("this is odd number : ");
+    }
+  }
+}
+
+
+3.
+import java.util.Scanner;
+class GreaterThen10{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.print("Enter the number : ");
+    int num=input.nextInt();
+    if(num>10){
+      System.out.println("this is greaterthen 10  ");
+    }else{
+      System.out.println("this is lessthen 10  ");
+    }
+  }
+}
+
+4.
+/*Write a program that takes an input number from the user and prints whether it is a multiple of 5 or not*/
+import java.util.Scanner;
+class MaltipleOf5{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number : ");
+    int num=input.nextInt();
+    if(num%5==0){
+      System.out.println("this number is devisible by 5 :");
+    }else{
+      System.out.println("this number is not devisible by 5 :");
+    }
+  }
+}
+
+5.
+
+/*5.Write a program that takes two input numbers from the user and prints whether the first number is div
+isible by the second number.*/
+
+import java.util.Scanner;
+class OneNumberDivisibleByAnotherNumber{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number : ");
+    int num1=input.nextInt();
+    System.out.println("Enter the number2 : ");
+    int num2=input.nextInt();
+    if(num1%num2==0){
+      System.out.println("this is divisible by other number : ");
+      }else{
+      System.out.println("this is not divesible other number : ");
+      }
+  }
+}
+
+
+6
+//this is positive number or negetive number
+import java.util.Scanner;
+class Positive{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number : ");
+    int num=input.nextInt();
+    if(num>0){
+      System.out.println("this is positive number :" );
+    }else if(num<0){
+      System.out.println("this is negetive number :");
+    }else{
+      System.out.println("this is zero");
+    }
+  }
+}
+
+
+7
+import java.util.Scanner;
+class Sample{
+  public static void main(String[] args){
+    int a=10,b=30;
+    Scanner input=new Scanner(System.in);
+    System.out.print("enter the a value:");
+    a=input.nextInt();
+    System.out.print("enter the b value:");
+    b=input.nextInt();
+    int c=a+b;
+    System.out.println("this is output :"+c);
+    
+  }
+}
+
+
+8.//narrowing typecasting
+import java.util.Scanner;
+class NarrowType
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter the value");
+      double number=sc.nextDouble();
+      int value=(int)number;
+      System.out.println(value);
+                        
+    }
+  }
+
+9.
+import java.util.Scanner;
+class Sample1{
+  public static void main(String[] args){
+   Scanner input=new Scanner(System.in);
+    System.out.println("Enter your name : ");
+    String Name=input.nextLine();
+    System.out.println("Enter your Number : ");
+    int Rollnumber=input.nextInt();
+    System.out.println("Enter your grade : ");
+     char grade=input.next().charAt(0);
+    System.out.println("Enter your percentage : ");
+     float percentage=input.nextFloat();
+    System.out.println("Enter your material states : ");
+    boolean material_states=input.nextBoolean();
+     System.out.print("Enter your Address : ");
+    String Address=input.next();
+    System.out.println("Enter your Dob : ");
+    String dob=input.next();
+    System.out.println("this is my name :" +Name);
+    System.out.println("this is my Rollnumber :"+ Rollnumber);
+    System.out.println("this is my grade:"+grade);
+    System.out.println("this is my percentage :"+percentage);
+    System.out.println("this is my boolean :"+material_states);
+    System.out.println("this is my dob:"+grade);
+    System.out.println("this is my Adress:"+Address);
+  }
+  
+}
+
+10.
+
+import java.util.Scanner;
+class winodowType
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter the value");
+      double number=sc.nextDouble();
+      int value=(int)number;
+      System.out.println(value);
+                        
+    }
+  }
+
+
+11.
+
+//check alphabet or not
+import java.util.Scanner;
+class AlphabetOrNot{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number : ");
+    char ch=input.next().charAt(0);
+    if((ch>'a'&&ch>'z')||(ch>'A'&&ch>'Z')){
+      System.out.println("this is alphabe");
+    }else{
+       System.out.print("these are not alphabetes");
+    }
+  }
+}
+
+12.
+
+//basicsalary calculation
+import java.util.Scanner;
+class BasicSalary{
+  public static void main(String[] args){
+    Scanner gowri=new Scanner(System.in);
+    System.out.println("Enter basicsalary :");
+    double salary=gowri.nextDouble();
+    if(salary<=10000){
+      double hra=salary*0.8;
+      double da=salary*0.2;
+      double grasssalary=(salary+hra+da);
+      System.out.println("this is grasssalary" +(salary+hra+da));
+    }else if(salary<=20000){
+       double hra=salary*0.9;
+      double da=salary*0.25;
+      double grasssalary=(salary+hra+da);
+      System.out.println("this is grasssalary" +(salary+hra+da));
+    }else if(salary>20000){
+      double hra=salary*0.95;
+      double da=salary*0.3;
+      double grasssalary=(salary+hra+da);
+      System.out.println("this is grasssalary" +(salary+hra+da));
+    }
+  }
+}
+
+13.
+
+//divisibleby 11 and 5
+import java.util.Scanner;
+class DivisibleNumber
+  {
+    public static void main(String args[])
+    {
+      Scanner s=new Scanner(System.in);
+     System.out.println("Enter the number");
+        int num=s.nextInt();
+        if((num%5==0) && (num%11==0))
+        {
+        System.out.print("it is divisible by 5 and 11");
+        }
+      else
+      {
+        System.out.println("it is not divisible by 5 and 11");
+      }
+    }
+  }
+
+14.import java.util.Scanner;
+
+class Grade
+{
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println(" enter physics marks:");
+    int physics=sc.nextInt();
+    System.out.println(" enter social marks:");
+    int social=sc.nextInt();
+    System.out.println(" enter science marks:");
+    int science=sc.nextInt();
+    System.out.println(" enter maths marks:");
+    int maths=sc.nextInt();
+    System.out.println(" enter  english marks:");
+    int english=sc.nextInt();
+    double total=physics+social+science+maths+english;
+    double Percentage=(total/500)*100;
+    System.out.println("Percentage= "+Percentage);
+    if(Percentage>=90)
+    {
+      System.out.println("grade A");
+    }
+    else if(Percentage>=80)
+    {
+      System.out.println("grade B");
+    }
+    else if(Percentage>=70)
+    {
+      System.out.println("grade C");
+    }
+    else if(Percentage>=60)
+    {
+      System.out.println("grade D");
+    }
+    else if(Percentage>=50)
+    {
+      System.out.println("grade E");
+    }
+    else if(Percentage>=40)
+    {
+      System.out.println("grade F");
+    }
+    else
+    {
+      System.out.println("fali");
+    }
+  }
+}
+
+
+15.
+
+//maximum three numbers
+ //WAP to find maximum between three numbers.
+import java.util.Scanner;
+class MaximumThree{
+  public static void main(String[] args){
+    Scanner input=new Scanner (System.in);
+    System.out.println("Enter the number1 : ");
+    int num1=input.nextInt();
+     System.out.println("Enter the number2 : ");
+    int num2=input.nextInt();
+     System.out.println("Enter the number3 : ");
+    int num3=input.nextInt();
+    if(num1>num2 && num1>num3){
+      System.out.println("this is num1 is greatest : +num1");
+    }else if(num2>num3){
+      System.out.println("this is num2 is greatest : "+num2);
+    }else{
+      System.out.println("this is num3 is greatest : "+num3);
+    }
+  }
+}
+
+16
+
+//Maximum Two numbers check what is begger
+import java.util.Scanner;
+class MaximumTwo{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the num1 : ");
+    int num1=input.nextInt();
+     System.out.println("Enter the num2 : ");
+    int num2=input.nextInt();
+    
+    if(num1>num2){
+      System.out.println("this number is greatest " +num1);
+      }else{
+      System.out.println("this is greatest : " +num2);
+      }
+  }
+  
+}
+
+17.
+
+//WAP to input any character and check whether it is alphabet, digit    or special character.
+import java.util.Scanner;
+class SymbalOrDigitOrCharacter{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the any character : ");
+    char ch=input.next().charAt(0);
+    if(ch>'a'&&ch<'z'||ch>'A'&&ch<'Z'){
+      System.out.println("this is character");
+    }else if(ch>='0' && ch<='9'){
+      System.out.println("this is digit");
+    }else{
+      System.out.println("this is symbal");
+      
+    }
+  }
+}
+
+
+18.
+
+//upper case or loweer case character
+import java.util.Scanner;
+class UpperOrLower
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the Character :");
+		char ch = input.next().charAt(0);			
+		if(ch>='a' && ch<='z')
+		{
+			System.out.println("This is a Lowercase Alphabet");
+		}
+		else
+		{
+			System.out.println("This is a Uppercase Alphabet");
+		}
+	}
+}
+
+19.
+
+// WAP to check whether a character is alphabet or not.
+import java.util.Scanner;
+class VowelOrNot{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the anykeyword : ");
+    char ch=input.next().charAt(0);
+    if (ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u' ||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+      System.out.println("this is vowel : ");
+      }else{
+      System.out.println("this is not vowel");
+      }
+    }
+}
+
+20.
+
+import java.util.Scanner;
+class Week
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the Week Number(1-7) :");
+		int num = input.nextInt();			
+		if(num==1)
+			System.out.println("This is a Sunday");
+		else if(num==2)
+			System.out.println("This is a Monday");
+		else if(num==3)
+			System.out.println("This is a Tuesday");
+		else if(num==4)
+			System.out.println("This is a Wednesday");
+		else if(num==5)
+			System.out.println("This is a Thursday");
+		else if(num==6)
+			System.out.println("This is a Friday");
+		else if(num==7)
+			System.out.println("This is a Saturday");
+		else
+			System.out.println("Enter 1 to 7...");
+	}
+}
+
+
+21.
+// calculator app
+import java.util.Scanner;
+class Calculator{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter value num1 :");
+    int num1=input.nextInt();
+     System.out.println("Enter value num2 :");
+    int num2=input.nextInt();
+     System.out.println("Enter the result:");
+    char ch=input.next().charAt(0);
+    if(ch=='+')
+    {
+      System.out.println("Addition if two numbers :" +(num1+num2));
+    }else if(ch=='/')
+    {
+      System.out.println("division value is : " + (num1/num2));
+    }else if(ch=='*')
+    {
+      System.out.println("maltiplication value is : " +  (num1*num2));
+    }else if(ch=='%')
+    {
+      System.out.println("modulus value is : " +  (num1%num2));
+    }else if(ch=='-')
+    {
+      System.out.println("substractionis value is: " +  (num1-num2));
+    }else{
+      System.out.println("Invalid operation");
+    }
+  }
+}
+
+
+
+22.
+
+//age find out mager or miner
+
+import java.util.Scanner;
+class AgeFindout
+  {
+public static void main(String args[])
+    {
+      
+      Scanner gowri=new Scanner(System.in);
+      System.out.println("ENTER DATE OF BIRTH YEAR");
+      int dob=gowri.nextInt();
+      int age=2023-(dob);
+      System.out.println("tHE AGE IS :"+age);
+      if(age>=18)
+      {
+      System.out.println("The age is :"+age+" "+":MAJOR");
+      }
+      else if(age<18)
+      {
+      System.out.println("The age is :"+age+" "+":MINOR");
+      }
+       else 
+      {
+      System.out.println("Enter valid age");
+      }
+     }
+  }
+
+23.
+// calculator app
+import java.util.Scanner;
+class Calculator1{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter value num1 :");
+    int num1=input.nextInt();
+     System.out.println("Enter value num2 :");
+    int num2=input.nextInt();
+     System.out.println("Enter the result:");
+    char ch=input.next().charAt(0);
+    if(ch=='+')
+    {
+      System.out.println("Addition if two numbers :" +(num1+num2));
+    }else if(ch=='/')
+    {
+      System.out.println("division value is : " + (num1/num2));
+    }else if(ch=='*')
+    {
+      System.out.println("maltiplication value is : " +  (num1*num2));
+    }else if(ch=='%')
+    {
+      System.out.println("modulus value is : " +  (num1%num2));
+    }else if(ch=='-')
+    {
+      System.out.println("substractionis value is: " +  (num1-num2));
+    }else{
+      System.out.println("Invalid operation");
+    }
+  }
+}
+
+
+24.
+
+//electricity bill
+import java.util.Scanner;
+class ElectricityBill{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter a bill");
+    int unit=input.nextInt();
+    int amount=0;
+    if(unit<100){
+      amount=unit*5;
+      System.out.println("bill amount= "+amount);
+    }else if(unit<200){
+      amount=unit*10;
+      System.out.println("bill amount= "+amount);
+    }else{
+      amount=unit*20;
+      System.out.println("bill amount="+amount);
+    }
+  }
+}
+
+25.
+
+import java.util.Scanner;
+class GradeCalculation
+{
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println(" enter physics marks:");
+    int physics=sc.nextInt();
+    System.out.println(" enter social marks:");
+    int social=sc.nextInt();
+    System.out.println(" enter science marks:");
+    int science=sc.nextInt();
+    System.out.println(" enter maths marks:");
+    int maths=sc.nextInt();
+    System.out.println(" enter  english marks:");
+    int english=sc.nextInt();
+    double total=physics+social+science+maths+english;
+    double Percentage=(total/500)*100;
+    System.out.println("Percentage= "+Percentage);
+    if(Percentage>=90)
+    {
+      System.out.println("grade A");
+    }
+    else if(Percentage>=80)
+    {
+      System.out.println("grade B");
+    }
+    else if(Percentage>=70)
+    {
+      System.out.println("grade C");
+    }
+    else if(Percentage>=60)
+    {
+      System.out.println("grade D");
+    }
+    else if(Percentage>=50)
+    {
+      System.out.println("grade E");
+    }
+    else if(Percentage>=40)
+    {
+      System.out.println("grade F");
+    }
+    else
+    {
+      System.out.println("fali");
+    }
+  }
+}
+
+26.
+
+//chech leapyear or not
+import java.util.Scanner;
+class LeapYear{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter year :");
+    int year=input.nextInt();
+    boolean leaf=false;
+    if((year%4==0&&year%100!=0) || (year%400==0)){
+      System.out.println("this is leapyear :" +year);
+    }else{
+      System.out.println("this is not a leapyear" +year);
+    }
+  }
+}
+
+
+27.
+
+import java.util.Scanner;
+class RPS
+{
+  public static void main(String args [])
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the user input R or P or S");
+    char user=sc.next().charAt(0);
+    System.out.println("enter the computer input R or P or S");
+    char computer=sc.next().charAt(0);
+    if((user=='R')&&(computer=='S'))
+    {
+      System.out.println("user wins");
+    }
+    else if((user=='S')&&(computer=='R'))
+    {
+      System.out.println("computer wins");
+    }
+    else if((user=='R')&&(computer=='P'))
+    {
+      System.out.println("computer wins");
+    }
+    else if((user=='P')&&(computer=='R'))
+    {
+      System.out.println("user wins");
+    }
+    else if((user=='P')&&(computer=='S'))
+    {
+      System.out.println("computer wins");
+    }
+    else if((user=='S')&&(computer=='P'))
+    {
+      System.out.println("user wins");
+    }
+    else
+    {
+      System.out.println("invalid input");
+    }
+  }
+}
+
+
+28.
+
+// Tax calculation
+import java.util.Scanner;
+class SalaryTaxNet{
+  public static void main(String[] args){
+    Scanner gowri=new Scanner(System.in);
+    System.out.println("Enter a monthely salary : ");
+    double basicsalary=gowri.nextDouble();
+    if(basicsalary<=100000){
+      //double hra=basicsalary*0.5;
+      //double da=basicsalary*0.2;
+      double tax=0;
+      double netsalary=basicsalary-tax;
+      System.out.println(netsalary);
+    }else if(basicsalary<=600000){
+      //double hra=basicsalary*0.6;
+      //double da=basicsalary*0.3;
+      double tax=basicsalary*0.1;
+      double netsalary=basicsalary-tax;
+      System.out.println(netsalary);
+    }else{
+      //double hra=basicsalary*0.7;
+      //double da=basicsalary*0.2;
+      double tax=basicsalary*0.2;
+      double netsalary=basicsalary-tax;
+      System.out.println(netsalary);
+    }
+  }
+}
+
+
+29.
+
+//traffic signal
+import java.util.Scanner;
+class Traffic{
+  public static void main(String[] args){
+    Scanner gowri=new Scanner(System.in);
+      System.out.println("Enter The Time 24 hrs");
+      int time=gowri.nextInt();
+      if((time>=6)&&(time<=8))
+      {
+        System.out.println("The Signal is Green");
+      }
+      else if((time>=8)&&(time<=10))
+      {
+        System.out.println("The Signal is Red");
+      }
+      else if((time>=10)&&(time<=13))
+      {
+        System.out.println("The Signalis Orange");
+      }
+      else if((time>=13)&&(time<=17))
+      {
+        System.out.println("The Signal is Green");
+      }
+      else if((time>=17)&&(time<=21))
+      {
+        System.out.println("The Signalis Orange");
+      }
+      else if((time>=21)&&(time<=5))
+      {
+        System.out.println("The Signal is Green");
+      }
+      else{
+      System.out.println("invalid signal");
+    }
+    
+  }
+}
+
+30.
+//1 to 100 even numbers using while loop
+import java.util.Scanner;
+class Even
+{  
+    public static void main(String args[])   
+    {
+      Scanner input=new Scanner(System.in);
+      System.out.print("List of even numbers from 1 to 100:");  
+      int n=100, i=1;
+      for(i=1;i<=n;i++)   
+        { 
+            if ( i%2 != 0 )
+            {
+                System.out.print(i + " ");
+            }
+        }
+    }  
+}
+
+31
+
+//sum of even numbers 1toN
+import java.util.Scanner;
+class Even1ToN{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter n value");
+    int n=input.nextInt();
+    int sum=0;
+    for(int i=1;i<=n;i++){
+      if(i%2==0){
+        sum=sum+i;
+        System.out.println(sum);
+      }
+    }
+    
+  }
+}
+
+32.
+
+//multiplication table
+import java.util.Scanner;
+public class MultiplicationTable 
+{
+    public static void main(String[] args) 
+    {
+        Scanner s = new Scanner(System.in);
+	System.out.print("Enter number:");        
+	int n=s.nextInt();
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(n+" * "+i+" = "+n*i);
+        }
+    }
+}
+
+33.
+//1 to N natural numbers
+import java.util.Scanner;
+class NaturalNum{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter the value n : ");
+    int n=input.nextInt();
+    int i=1;
+    while(i<=n){
+      System.out.println(i+"\t");
+      i++;
+    }
+  }
+}
+
+34.
+//1 to 100 odd numbers using while loop
+import java.util.Scanner;
+class Odd1To100
+{  
+    public static void main(String args[])   
+    {
+      Scanner input=new Scanner(System.in);
+          
+        System.out.print("List of even numbers from 1 to 100:");  
+      int n=100, i=1;  
+        for(i=1;i<=n;i++)   
+        { 
+            if ( i%2 != 0 )
+            {
+                System.out.print(i + " ");
+            }
+          i++;
+        }
+    }  
+}
+
+35.
+
+//sum of Odd numbers 1toN
+import java.util.Scanner;
+class OddNum1ToN{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter n value");
+    int n=input.nextInt();
+    int sum=0;
+    for(int i=1;i<=n;i++){
+      if(i%2!=0){
+        sum=sum+i;
+        System.out.println(sum);
+      }
+    }
+    
+  }
+}
+
+36.
+import java.util.Scanner;
+class sumofeven1ton{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter n value");
+    int n=input.nextInt();
+    int sum=0;
+    for(int i=1;i<=n;i++){
+      if(i%2==0){
+        sum=sum+i;
+        System.out.println(sum);
+      }
+    }
+    
+  }
+}
+
+37.
+//sum of n naturalnumbers
+import java.util.Scanner;
+class SumOfNaturalNum 
+{  
+public static void main(String[] args)   
+{   
+int i=1, num = 10, sum = 0; 
+for(i = 1; i <= num; ++i)  
+{ 
+sum = sum + i;  
+}  
+System.out.println("Sum of First 10 Natural Numbers is = " + sum);  
+}  
+}  
+
+38.
+//printing the number digits
+import java.util.Scanner;
+class DigitsFromNum{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    int num=input.nextInt();
+    while(num>0){
+      int digit=num%10;
+      System.out.println(digit);
+      num=num/10;
+    }
+    
+  }
+}
+
+39.
+import java.util.Scanner;
+class Factor{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number:");
+    int num=input.nextInt();
+    int i=1;
+    
+    for(i=1;i<=120;i++){
+      if(num%i==0){
+        System.out.println(i);
+      }
+      
+    }
+  }
+}
+40.
+//factorial findout
+
+
+import java.util.Scanner;
+class Factorial
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter the number to find out the factorial");
+      int n=sc.nextInt();
+      int result=1;
+      for(int i=1;i<=n;i++)
+        {
+          result=result*i;
+        }
+      System.out.println("factorial of "+n+" is "+result);
+    }
+  }
+41.
+
+import java.util.Scanner;
+class First and lastnumber{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the any positive number :");
+    int num=input.nextInt();
+    int FirstName=num;//897
+    int LastName=num%10;//897%10
+    while(FirstName>=10){ //true
+      FirstName=FirstName/10;
+      //LastName=LastName/10;
+      //897/10=89 89/10=8   di=8
+    }
+    System.out.println("First Name="+FirstName);
+    System.out.println("Last Name="+LastName);
+  }
+}
+
+42
+import java.util.Scanner;
+class NumDivisibleBy3{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the value : ");
+    int num=input.nextInt();
+    int i=1;
+    for(i=1;i<=num;i++){
+      if(i%3==0){
+        System.out.print(i+" ");
+        
+      }
+    }
+  }
+}
+43.
+import java.util.Scanner;
+class PerfectNumber{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number perfect or not :");
+    int num=input.nextInt(); //28
+    int sum=0;
+    for(int i=1;i<=num;i++){  //1<=28
+      if(num%i==0){    //28%1=28,28%2=14,28%4=7,28%7=4,28%14=2,28%28=1;===(28=14+7+4+2+1)
+        sum=sum+i; //sum=0+1=1,1+2=3,3+4=7,7+7=14,14+14=28;
+      }
+    }
+    if(num==sum){
+      System.out.println("this is perfect number");
+      
+    }else{
+      System.out.println("this is not perfect number");
+    }
+  }
+}
+
+44.//find prime number
+import java.util.Scanner;
+class PrimeNumber{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter a number");
+    int num=input.nextInt();
+    int count=0;
+    for(int i=1;i<=num;i++){  //i=1,1<=5//2<=5 remainder is 1 then count is not increse 5<=5 condition satisfied then count value is increse count==2
+      //(NOTE: here count is i value i=1 count is increse count=count+1=0+1=1,i=5 count is increse5%5=0 before count value is 1 but now 5%5=0 then count value increment count==2 )
+      if(num%i==0){           //5%1=0 then count=1//
+        count++;   //first count==0,num%1==0 then count==1,num%5==0 then count==2    
+      }
+    }
+    if(count==2){
+      System.out.println("this is prime number");
+    }else{
+      System.out.println("this is not prime number");
+    }
+  }
+}
+
+45.
+
+//find the reverse value and print the value
+import java.util.Scanner;
+class ReverseNumber{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter the number : ");
+    int num=input.nextInt(); //789
+    int reverse=0;
+    while(num>0){     //789>0; // 78>0;// 7>0;
+      int digit=num%10;   //digit  789%10= remender is=9; //78%10=8; 7%10=7
+      reverse=(reverse*10)+digit; //(0*10)+9=9;//(9*10)+8=98;//(98*10)+7=987
+      num=num/10;//789/10=78 ; //78/10=7; //7%10=0;
+    }
+    System.out.println("reverse number is : "+reverse);
+    
+  }
+}
+
+46.
+//febonacic series
+import java.util.Scanner;
+class Febono{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter the number: ");
+    int num=input.nextInt();
+    int first=0,second=1;
+    System.out.println(first+"");
+    System.out.println(second+"");
+    for(int i=1;i<num;i++){
+      int third=first+second;
+      System.out.println("third+");
+      first=second;
+      second=third;
+    }
+    
+  }
+}
+
+47.
+
+//polindrome
+import java.util.Scanner;
+class Polindrome{
+  public static void main (String args []) {
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number :");
+    int num =input.nextInt();
+    int reverse= 0, digit=0;
+    int gowrikumar= num;
+    while (num >0) {    //8338>10 //833>0 //83>0; 8>0;
+      digit= num % 10;  //8338%10=833 ,remainder is 8 // 833%10=83 remainder is 3// 83%10=8 ,remainder is 3// 8%10=0.8 we can tac 8 only
+      reverse = (reverse* 10) + digit; //(0*10)+8=8//(8*10)+3=83//(83*10)+3=833//(833*10)+8=8338
+      num /= 10;//8338/10=833 // 833/10=83// 83/10=8
+    }
+    if (gowrikumar== reverse) {
+      System.out.println (gowrikumar + " is a Palindrome Number.");
+    } else {
+      System.out.println (gowrikumar + " is not a Palindrome Number.");
+    }
+  }
+}
+
+48.
+
+//Power of base
+import java.util.Scanner;
+class PowerValue{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter any number :");
+    int num=input.nextInt();
+    int result=2;
+    for(int i=1;i<=num;i++){ 
+    result=result*base;
+  }
+  System.out.println("this base of power value:"+result);
+}
+}
+
+49.
+//Strong number
+
+import java.util.Scanner;
+class Strong
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter a number");
+      int number=sc.nextInt();
+      int temp=number;
+      int sum=0;
+      while(number>0)
+        {
+          int digit=number%10;
+          int fact=1;
+          for(int i=1;i<=digit;i++)
+            {
+              fact=fact*i;
+            }
+          sum=sum+fact;
+          number=number/10;
+          
+        }
+      if(sum==temp)
+      {
+        System.out.println("strong number");
+      }
+      else
+        System.out.println("not a strong number");
+      
+    }
+  }
+
+//atm transjaction
+import java.util.Scanner;   
+public class ATM tranjaction
+{
+  public static void main(String args[] )  
+    {  
+        int balance = 100000, withdraw, deposit;    
+        Scanner sc = new Scanner(System.in);  
+          while(true)  
+        {  
+            System.out.println("Automated Teller Machine");  
+            System.out.println("Choose 1 for Withdraw");  
+            System.out.println("Choose 2 for Deposit");  
+            System.out.println("Choose 3 for Check Balance");  
+            System.out.println("Choose 4 for EXIT");  
+            System.out.print("Choose the operation you want to perform:");  
+              
+            //get choice from user  
+            int choice = sc.nextInt();  
+            switch(choice)  
+            {  
+                case 1:  
+        System.out.print("Enter money to be withdrawn:");  
+                      
+        //get the withdrawl money from user  
+        withdraw = sc.nextInt();  
+                      
+        //check whether the balance is greater than or equal to the withdrawal amount  
+        if(balance >= withdraw)  
+        {  
+            //remove the withdrawl amount from the total balance  
+            balance = balance - withdraw;  
+            System.out.println("Please collect your money");  
+        }  
+        else  
+        {  
+            //show custom error message   
+            System.out.println("Insufficient Balance");  
+        }  
+        System.out.println("");  
+        break;  
+   
+                case 2:  
+                      
+        System.out.print("Enter money to be deposited:");  
+                      
+        //get deposite amount from te user  
+        deposit = sc.nextInt();  
+                      
+        //add the deposit amount to the total balanace  
+        balance = balance + deposit;  
+        System.out.println("Your Money has been successfully depsited");  
+        System.out.println("");  
+        break;  
+   
+                case 3:  
+        //displaying the total balance of the user  
+        System.out.println("Balance : "+balance);  
+        System.out.println("");  
+        break;  
+   
+                case 4:  
+        //exit from the menu  
+        System.exit(0);  
+            }  
+        }  
+    }  
+}  
+
+50.
+import java.util.Scanner;
+class Break
+  {
+    public static void main(String args[])
+    {
+      System.out.println("enter the number :");
+     for(int i=1;i<=9;i++)
+       {
+         if(i==3)
+         {
+           break;
+         }
+         System.out.println(i);
+       }
+    }
+  }
+
+51.
+//continue statement
+import java.util.Scanner;
+class Continue
+  {
+    public static void main(String args[])
+    {
+      System.out.println("enter the number :");
+     for(int i=1;i<=9;i++)
+       {
+         if(i==8)
+         {
+           continue;
+         }
+         System.out.println(i);
+       }
+    }
+  }
+52.
+class InnerForLoop
+  {
+    public static void main(String args[])
+    {
+     for(int i=1;i<=5;i++)  //outer loop
+       {
+         for(int j=1;j<=5;j++) //inner loop
+           {
+             System.out.println("i = "+i+"  j = "+j);
+           }
+       }
+    }
+  }
+53.
+//n numberof strong numbers
+import java.util.Scanner;
+class NStrongNumber
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter a number");
+      int number=sc.nextInt();
+      int temp=number;
+      int sum=0;
+      while(number>0)
+        {
+          int digit=number%10;
+          int fact=1;
+          for(int i=1;i<=digit;i++)
+            {
+              fact=fact*i;
+            }
+          sum=sum+fact;
+          number=number/10;
+          
+        }
+      if(sum==temp)
+      {
+        System.out.println("strong number");
+      }
+      else
+        System.out.println("not a strong number");
+      
+    }
+  }
+
+54
+import java.util.Scanner;
+class Prime number 50 to 100{
+  public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter the number ");
+    int num=input.nextInt();
+  
+    for(int i=50;i<=100;i++){
+      int count=0;
+      for(int j=1;j<=i;j++){
+        if(i%j==0){
+          count++;
+          }
+      }
+      if(count==2){
+        System.out.println (i+"");
+        
+      }
+    }
+    }
+  }
+
+55.
+//while statement
+class While
+  {
+    public static void main(String args[])
+    {
+      int i=3;
+      do
+        {
+          System.out.println(i); 
+          i++; 
+        }
+        while(i<=15); 
+    }
+  }
+
+56.
+
+
